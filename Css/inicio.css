@@ -1,0 +1,55 @@
+* { padding: 0; margin: 0; box-sizing: border-box; -moz-box-sizing: border-box; -webkit-box-sizing: border-box; scroll-behavior: smooth;}
+html,body { font-family: 'Arial', verdana; background: #F0F0F0;}
+
+
+/*------ SLIDER ------ */
+#flexslider{ width: 100%; height: 50vh; position: relative; margin-top: 0%;}
+.slides{ width: 100%; height: 100%; overflow: hidden;}
+.slides img{ width: 100%; height: 100%; transform: translateY(-20%);}
+
+.flex-caption h1{ position: absolute; width: 100%; font-size: 2rem; color: #fff;
+font-weight: bold; margin: auto; text-align: center;  top: 35%;}
+
+
+/*------ Series ------ */
+#series {width: 100%; height: 55vh; margin-bottom: 5%;}
+.sr_todo {width: 90%; height: 100%; margin: auto;}
+
+.series_titulo {width: 100%; height: 8%; text-align: center; color: #17202A;}
+.et_sr2 {width: 100%; height: 100%;margin: auto;}
+
+.etsr2{width: 100%; height: 100%; margin: auto;}
+
+.etxs_s2 {width: 100%; height: 100%; margin: 2% auto; display: flex;}
+.s_etxs2 {width: 22%; height: 100%; margin: auto;}
+.s_etxs2 img {width: 100%; height: 100%;}
+
+
+/*------ Trailes ------ */
+#videos {width: 100%; height: 45vh;}
+.vd_todo {width: 90%; height: 100%; margin: auto;}
+
+.video_titulo {width: 100%; height: 8%; text-align: center; color: #17202A;}
+.et_vd2 {width: 100%; height: 55%;margin: auto;}
+
+.etvd2{width: 100%; height: 100%; margin: auto;}
+
+.etxs_v2 {width: 100%; height: 100%; margin: 2% auto; display: flex;}
+.v_etxs2 {width: 24%; height: 100%; margin: auto;}
+.v_etxs2 iframe {width: 100%; height: 100%;}
+
+/*------ FOTOS ------ */
+
+#Galeria {width: 90%;height: 13vh;margin: auto;}
+#header2 {width: 80%;margin: auto;text-align: center; padding: 3% 3% 3%3%;}
+#header2 h1 {color: #17202A;font-weight: bolder;font-size: 40px;z-index: 2;font-family: 'PT Sans Narrow', sans-serif;}
+#header2 p {color: #17202A;font-weight: lighter;font-family: 'PT Sans Narrow', sans-serif;font-size: 35px;z-index: 2; margin-top: 3%;}
+
+.fortafolio { width: 100%; height: 95vh; margin-top: 4%; margin-bottom: 1%;}
+.fortafolio-sec {width: 90%; height: 49%; margin: auto; display: flex; margin-top: 10px;}
+.boxutfortafoliopri {width: 45%; height: 100%; margin: auto;}
+.boxutfortafoliopri img{width: 100%; height: 100%;}
+.boxutfortafolioseg {width: 27%; height: 100%; margin: auto;}
+.boxutfortafolioseg img{width: 100%; height: 100%;}
+
+.fortafolio-sec2 {width: 90%; height: 49%; margin: auto; display: flex; margin-top: 5px;}
